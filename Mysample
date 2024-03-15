@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src=""  width="200px" controls autoplay loop muted poster=""></video>
+    <img src="" alt="No image" title="Shrek">
+
+    <ol></ol>
+</body>
+</html>
+
+<!--
+    ../     ==> Mean backwards of the folder
+    title  ==> when you touch the image the title msg will hover
+    
+-->
+
+<!--
+    sementic tags , non sementic tags, Text formatting (Already done)
+-->
