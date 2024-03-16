@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- -----------------USER FORM TABLE -->
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="name">Name :</label></td>
+          <td>
+            <input type="text" id="name" name="name" placeholder="Name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password :</label></td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="gender">Gender :</label></td>
+
+          <td>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">E-Mail :</label></td>
+          <td><input type="email" placeholder="E-mail" id="email" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="phoneno">Phone No : </label></td>
+          <td>
+            <select name="phoneno" id="pboneno">
+              <option value="ind">+91</option>
+              <option value="US">+01</option>
+              <option value="Uk">+07</option>
+            </select>
+            <input type="number" placeholder="Phone No" name="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" /></td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- ----------------CUSTOMER DETAILS TABLE --------------------- -->
+
+    <br /><br /><br /><br />
+    <hr />
+    <br /><br /><br /><br />
+
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="id">Customer ID :</label></td>
+          <td><input type="number" id="id" name="id" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="company">Company Name :</label></td>
+          <td><input type="text" id="company" name="company" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="name">Contact Name :</label></td>
+          <td><input type="text" id="name" name="name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="contry">Country :</label></td>
+          <td><input type="text" id="country" name="country" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" placeholder="submit" />
+            <button type="button">Cancel</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- ----------Customer Job ------------------ -->
+
+    <br /><br /><br /><br />
+    <hr />
+    <br /><br /><br /><br />
+
+    <div>
+      <fieldset>
+        <legend>Customer</legend>
+        <table>
+          <tr>
+            <td><label for="name2">Name* </label></td>
+            <td><input type="text" required name="name2" id="name2" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="email2">Email* </label></td>
+            <td><input type="email" required name="email2" id="email2" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="investment">Investment</label></td>
+            <td>
+              <select name="investment" id="investment">
+                <option value="1">Investment 1</option>
+                <option value="2">Investment 2</option>
+                <option value="3">Investment 3</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="date">Date Joined* </label></td>
+            <td><input type="date" required name="date" id="date" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="active">Active</label></td>
+            <td><input type="checkbox" name="active" id="active" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <td><button>ok</button></td>
+          <td><button>Cancel</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
