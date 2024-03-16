@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating an Form</title>
+</head>
+<body>
+    <h1>My first form</h1>
+
+    <div>
+        <form action="">
+            <label for="username">Username : </label>
+            <input type="text" id="username" name="username" required>
+
+            <br>
+
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="passowrd" required>
+
+            <br>
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password">
+        
+            <br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <h1>Subscription form with dropdown</h1>
+        <form action="">
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+
+            <label for="subscription">Subscribe to :</label>
+            <select name="subscription" id="subscription">
+                <option value="newsletter">Newsletter</option>
+                <option value="updates">Product Updates</option>
+                <option value="offers">Special Offers</option>
+            </select>
+
+            <br>
+
+            <button type="submit">Subscribe</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
