@@ -1,0 +1,35 @@
+#color{
+    color: red;
+}
+
+#letter-spacing{
+    letter-spacing: 6px;
+}
+
+#word-spacing{
+    word-spacing: 15px;
+}
+
+#text-align{
+    text-align:center;
+    /* start, end, right, left  */
+}
+
+#text-dec{
+    text-decoration: underline;
+    /* overline underline, ovreline, none */
+
+}
+
+#text-intent{
+    text-indent: 50px;
+}
+
+#text-shadow{
+    text-shadow: 3px 3px 2px red;
+}
+
+#text-transform{
+    text-transform: uppercase;
+    /* lowercase, capitalize, none */
+}

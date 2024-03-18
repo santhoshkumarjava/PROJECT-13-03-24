@@ -1,0 +1,48 @@
+/* You can style in 3 types
+    //Inline style  -   style in html attributes using ("style=color:red;")
+    //Internal style - Using style tag in head tag (then create ur own style)
+    //External style    - Using link tag in head tag then add css file into href
+
+*/
+
+
+/* 1. Descendant Selector ( )
+div p {
+    background-color: plum;
+}
+*/
+
+
+
+/*  2.Child Selector (>)
+div > p{
+    background-color: red;
+}
+ */
+
+
+
+/* 
+    3. Adjacent Sibling Selector (+)
+
+div + p{
+    background-color: aqua;
+}
+div + p + p{
+    background-color: aquamarine;
+}
+*/
+
+
+
+/* 4.General Sibling Selector (~) 
+
+div ~ p{
+    background-color: blueviolet;
+}
+*/
+
+/* 5. Group selector */
+h1, h2, p{
+    background-color: chartreuse;
+}
