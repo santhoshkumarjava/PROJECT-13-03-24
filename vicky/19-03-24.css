@@ -11,4 +11,8 @@ body{
     border-top: 5px dashed yellow;
     border-left: 5px solid red;
     border-right: 5px inset black;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-top: 300px;
+    padding-left: 70px;
 }
