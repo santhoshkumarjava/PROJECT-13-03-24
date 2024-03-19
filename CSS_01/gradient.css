@@ -1,0 +1,124 @@
+
+/* -----------Linear Gradient _------------------- */
+#grd1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red,yellow);
+}
+
+#grd2{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right, red,yellow);
+}
+
+#grd3{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(180deg, red,yellow);
+}
+
+#grd4{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+#grd5{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+/* ----------------RADIAL GRADIENT ------------------ */
+
+#rgrd1{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#rgrd2{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+#rgrd3{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+#rgrd4{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+#rgrd5{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+}
+
+
+/* -------------Conic Gradient---------------------- */
+#cgrd1{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green);
+}
+
+#cgrd2{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+#cgrd3{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+
+#cgrd4{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+	border-radius: 50%;
+}
+
+#cgrd5{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+	border-radius: 50%;
+}
+
+#cgrd6{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+
+#cgrd7{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+}
+
+#cgrd8{
+    height: 200px;
+    width: 200px;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+	border-radius: 50%;
+}
+
+#cgrd9{
+    height: 200px;
+    width: 200px;
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+	border-radius: 50%;
+}

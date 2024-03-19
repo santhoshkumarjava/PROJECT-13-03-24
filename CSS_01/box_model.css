@@ -1,0 +1,112 @@
+/* ------------Border--------------- */
+/* border style */
+#bs1{
+    border-bottom-style : solid;
+
+}
+
+#bs2{
+    border-style: solid;
+
+}
+
+#bs3{
+    border-style: dotted dashed solid double;
+
+}
+
+#bs4{
+    border-left-style : solid;
+
+}
+
+/* Border width */
+#bw1{
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+#bw2{
+    border-style: solid;
+    border-width: thin;    
+}
+
+/* Border Color */
+#bc1{
+    border-style: solid;
+    border-color: red;
+}
+
+#bc2{
+    border-style: solid;
+    border-color: red blue green yellow;
+}
+
+/* Border Radius */
+#br1{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/* Border Shorthland */
+#BS{
+    border: 10px solid blue;
+}
+
+
+
+
+/* -----------------Padding------------------- */
+
+#p1{
+    border: 5px solid blue;
+    padding-top: 25px;
+}
+
+#p2{
+    border: 5px solid blue;
+    padding: 25px;
+}
+
+#p3{
+    border: 5px solid blue;
+    padding: 25px 50px;
+}
+
+#p4{
+    border: 5px solid blue;
+    padding: 25px 40px 60px;
+}
+
+#p5{
+    border: 5px solid blue;
+    padding: 20px 40px 60px 80px;
+}
+
+/* --------Margin----------- */
+#m1{
+    border: 5px solid pink;
+    margin-left: 50px;
+}
+
+#m2{
+    border: 5px solid black;
+    margin: 50px;
+}
+
+#m3{
+    border: 5px solid;
+    margin: 50px 100px;
+}
+
+#m4{
+    border: 5px solid;
+    margin: 25px 50px 100px;
+}
+
+#m5{
+    border: 5px solid;
+    margin: 25px 50px 75px 100px;
+}
+
