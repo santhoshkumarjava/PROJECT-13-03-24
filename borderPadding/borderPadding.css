@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    background-color: aqua;
+    padding: 100px ;
+    border-style:solid solid solid dotted;
+    border-width:10px;
+    border-bottom:10px red solid ;     
+}
