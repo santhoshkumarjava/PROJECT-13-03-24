@@ -1,0 +1,21 @@
+body{
+    background-color:#fdccd2 ;
+}
+
+.main{
+    text-align: center;
+    padding: 20px;
+}
+.sub{
+    background-color:#ee4d83 ;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;  
+    width: 50%; 
+    position: relative;
+    left: 23%;        
+}
+a{
+    text-decoration: none;
+    color: white;
+}
