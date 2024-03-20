@@ -1,3 +1,164 @@
-#b1{
-    border-style:orange ;
+
+#bs1{
+    border-bottom-style : solid;
+
 }
+
+#bs2{
+    border-style: solid;
+
+}
+
+#bs3{
+    border-style: dotted dashed solid double;
+
+}
+
+#bs4{
+    border-left-style : solid;
+
+}
+
+/* Border width */
+#bw1{
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+#bw2{
+    border-style: solid;
+    border-width: thin;    
+}
+
+/* Border Color */
+#bc1{
+    border-style: solid;
+    border-color: aqua;
+}
+
+#bc2{
+    border-style: solid;
+    border-color: violet skyblue black green;
+}
+
+/* Border Radius */
+#br1{
+    border-style: dotted double;
+    border-radius: 8px;
+}
+
+/* Border Shorthland */
+#BS{
+    border: 8px solid orange;
+}
+
+
+
+
+/* -----------------Padding------------------- */
+
+#p1{
+    border: 3px solid orangered;
+    padding-top: 25px;
+}
+
+#p2{
+    border: 5px solid orangered;
+    padding: 10px;
+}
+
+#p3{
+    border: 5px solid orangered;
+    padding: 25px 25px;
+}
+
+#p4{
+    border: 5px solid orangered;
+    padding: 25px 25px 25px;
+}
+
+#p5{
+    border: 5px solid orangered;
+    padding: 5px 5px 5px 5px;
+}
+
+/* --------Margin----------- */
+#m1{
+    border: 5px solid rgb(233, 255, 192);
+    margin-left: 50px;
+}
+
+#m2{
+    border: 5px solid rgb(200,225,235);
+    margin: 50px;
+}
+
+#m3{
+    border: 5px solid;
+    margin: 50px 100px;
+}
+
+#m4{
+    border: 5px solid;
+    margin: 25px 50px 100px;
+}
+
+#m5{
+    border: 5px solid;
+    margin: 25px 50px 75px 100px;
+}
+
+/* ------------Over Flow-------------- */
+#op1{
+    width: 200px;
+    height: 200px;  
+    overflow: auto; 
+    border: 5px solid;
+    padding: 50px; 
+
+}
+
+#op2{
+    width: 200px;
+    height: 200px;
+    overflow: scroll; 
+    border: 5px solid;
+    padding: 50px;  
+
+}
+
+#op3{
+    width: 200px;
+    height: 200px;  
+    overflow: hidden; 
+    border: 5px solid; 
+    padding: 50px;
+}
+
+#op4{
+    width: 200px;
+    height: 200px;  
+    overflow: visible;
+    border: 5px solid; 
+    padding: 50px; 
+}
+
+#op5{
+    width: 100px;
+    height: 200px;   
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: 5px solid; 
+    padding: 50px;
+}
+
+#op6{
+    width: 200px;
+    height: 200px;    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 5px solid;
+    padding: 50px;
+}
+
