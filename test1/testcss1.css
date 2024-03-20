@@ -1,0 +1,43 @@
+#m1{
+    background:rgba(238,77,131,255);
+    border-radius: 8px;
+}
+
+#m2{
+    background:rgba(238,77,131,255);
+    margin: 50px 100px;
+    border-radius: 8px;
+}
+
+#m3{
+    background:rgba(238,77,131,255);
+    margin: 50px 100px;
+    border-radius: 8px;
+    
+}
+
+#m4{
+    background:rgba(238,77,131,255);
+    margin: 50px 100px;
+    border-radius: 8px;
+}
+
+#m5{
+    background:rgba(238,77,131,255);
+    margin: 50px 100px;
+    border-radius: 8px;
+}
+#m1,#m2,#m3,#m4,#m5{
+border: 2px solid #b52152;
+background: #b52152;
+border-radius: 20px;
+position: relative;
+left: 15%;
+}
+
+#head{
+font-weight: normal;
+
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
