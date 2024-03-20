@@ -5,7 +5,7 @@ table,td,th{
     border: 1px solid black;
     border-collapse: separate;
     border-spacing: 10px 20px;
-    caption-side:bottom;
+    caption-side:top;
     empty-cells: hide;
 }
 
@@ -52,4 +52,12 @@ table,td,th{
     position: relative;
     top: 50px;
     left: 500px;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    background-color: lavender;
+    table-layout: auto;
+    
 }
