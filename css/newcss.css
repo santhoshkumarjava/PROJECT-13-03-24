@@ -1,0 +1,110 @@
+.red{
+    color: red;
+}
+
+/* *{
+    color: blue !important;
+} */
+
+/* div > p {
+    color: blueviolet;
+} */
+/* 
+div+span+span{
+background-color: aquamarine;
+} */
+
+div~span{
+
+}
+
+/* h1,nav,span{
+background-color: blue !important;
+} */
+
+
+*{
+    font-family: 'Indie Flower', cursive;
+    /* google fonts */
+ 
+}
+body{
+    /* background-image: url('https://images7.alphacoders.com/132/1325253.png'); */
+    background-image: linear-gradient( rgb(205, 61, 61),rgb(120, 94, 94));
+    /* background-image: linear-gradient(120deg, rgb(205, 61, 61),rgb(120, 94, 94)); <---------------------------------------------handling it by degree*/
+
+/* top to bottom */
+}
+.texta{
+color: rgb(50, 205, 55);
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: underline overline line-through;
+line-height: 5px;
+text-transform:  lowercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+#tex{
+text-indent: 20px;
+}
+
+
+.shadow{
+text-shadow: 1px 1px 3px rgb(146, 80, 80);
+}
+
+.b{
+   font-size: 10px;
+   /* increase or decrease   */
+   font-family: Georgia, 'Times New Roman', Times, serif;
+/* font family settin  */
+font-variant: small-caps;
+/* font syle typography */
+font:i
+/* font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family]; */
+}
+.abc{
+    font: italic small-caps bold 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.abcd{
+font-style: italic;
+/* italic bold...` */
+}
+
+
+
+/* font for that */
+.new{
+    background-image: linear-gradient(to right,rgb(56, 56, 212),rgb(72, 72, 80));
+/* right to left */
+}
+
+.radius{
+    /* <--radius */
+}
+
+.conical{
+    background-image: url('https://w0.peakpx.com/wallpaper/139/674/HD-wallpaper-aesthetic-pink-rose-cut-romance.jpg');
+background-size: cover;
+background-color: red;
+background-position: right;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#box{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: dotted;
+    padding-left: 600px;
+}
+
+

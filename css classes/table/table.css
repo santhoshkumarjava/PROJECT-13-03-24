@@ -1,0 +1,51 @@
+table{
+    width: 100%;
+}
+
+table,th,td{
+    border: 1px solid;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 30px  20px;
+    caption-side: bottom;
+    cursor:zoom-in;
+}
+
+
+span~div{
+    height: 500px;
+    width: 400px;
+   border: 2px solid;
+}
+
+.absolute{
+    position: absolute;     
+    top:70px
+}
+.par{
+    top: 50%;
+    position: relative;
+}
+
+.sticky{
+    position: sticky;
+    bottom:0px;
+    top: 5px;
+    background-image: linear-gradient(red,blue);
+}
+
+
+.par{
+    width: 600px;
+    background-color: aqua;
+   
+ 
+}
+.child{
+    width: 400px;
+    background-color: rgb(159, 156, 156);
+    z-index: -1px;
+    position: absolute;
+}
+
+

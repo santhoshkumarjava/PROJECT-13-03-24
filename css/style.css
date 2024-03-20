@@ -1,0 +1,49 @@
+h3{
+color: aquamarine;
+/* <--css element selector  */
+}
+#unique{
+    background-color: chocolate;
+}
+
+
+.commonlyused{
+    text-align: center;
+}
+
+
+
+*{
+    font-size: x-large;
+   /* universal selector  */
+}
+
+
+p,th{
+    /* group selector */
+    color: burlywood;
+}
+
+div h6{
+    color: chartreuse;
+    /* <--descendent */
+}
+
+
+div+p{
+    direction: rtl;
+/* this selects the first following element adjusen5 */
+}
+
+
+div > p{
+    letter-spacing: 2px;
+    background-color: aquamarine;
+    /* child selector */
+}
+/* ids can over write class styling on a same element */
+
+
+span~ div{
+    text-align: center;
+}

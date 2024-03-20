@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMjBfYV9kaWdpdGFsX3JlbmRlcmluZ19kaWdpdGFsX2FydF9jb21tZXJjaWFsX2Jhbl8xNmY1NTllNC00MzU3LTRkOWYtOTUyNi04NGFhNDA4NzEzMzlfMS5qcGc.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+}
+
+.fon{
+font-family: Tapestry;
+color:#ff855c;
+}
+
+.box{
+ border-style: solid;
+}
