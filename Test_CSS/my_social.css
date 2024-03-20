@@ -1,0 +1,31 @@
+.my_soc{
+    text-align: center;
+    background-color: #fc97c3;
+    width: 98%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.color{
+    text-align: center;
+    width: 70%;
+}
+
+#face, #twit, #insta, #linked, #git{
+    border: 2px solid #b52152;
+    background: #b52152;
+    border-radius: 20px;
+    position: relative;
+    left: 15%;
+}
+
+#head{
+    font-weight: normal;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
