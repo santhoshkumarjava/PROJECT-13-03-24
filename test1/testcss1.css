@@ -1,25 +1,47 @@
 #m1{
+    text-align: center;
     background:rgba(238,77,131,255);
     border-radius: 8px;
+    align-items: center;
+    width:50%;
+    position:relative;
+    left: 25%;
+
 }
 
 #m2{
+    text-align: center;
     background:rgba(238,77,131,255);
     border-radius: 8px;
+    width:50%;
+    position:relative;
+    left:25%;
 }
 
 #m3{
+    text-align: center;
     background:rgba(238,77,131,255);
     border-radius: 8px;
+    width:50%;
+    position:relative;
+    left: 25%;
     
 }
 
 #m4{
+    text-align: center;
     background:rgba(238,77,131,255);
     border-radius: 8px;
+    width:50%;
+    position:relative;
+    left: 25%;
 }
 
 #m5{
+    text-align: center;
     background:rgba(238,77,131,255);
     border-radius: 8px;
+    width:50%;
+    position:relative;
+    left: 25%;
 }
