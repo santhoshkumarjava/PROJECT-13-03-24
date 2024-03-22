@@ -9,6 +9,34 @@
   background-color: green;
 }
 
+.tooltip{
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.tooltip::before {
+  content: attr(data-tooltip); /* Fetches the tooltip text from the 'data-tooltip' attribute */
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
   </style>
 </head>
 <body>
@@ -17,6 +45,10 @@
     <p><span>Jesus</span></p><br>
     <p><span>Allah</span></p><br>
     <p><span>Murugar</span></p>
+  </div>
+
+  <div class="tooltip" data-tooltip="this is the tooltip text">
+     hoover over me
   </div>
   
 </body>

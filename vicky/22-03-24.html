@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 300px;
+            background-color: lavender;
+            position: relative;
+            left: 380px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            border: 2px inset yellowgreen;
+            border-radius: 50px;
+        }
+        .main > div{
+            border: 2px solid black;
+            border-width:5px;
+            background-color: aquamarine;
+            border-radius: 25px;
+            padding: 10px 20px;
+            
+        
+        }
+
+        .main>div:nth-child(3){
+            background-color: red;
+            order:-1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>tamil</div>
+        <div>english</div>
+        <div>maths</div>
+        <div>science</div>
+        <div>social</div>
+    </div>
+    
+</body>
+</html>
