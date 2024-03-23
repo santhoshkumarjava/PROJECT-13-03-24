@@ -34,16 +34,29 @@
             background-color: red;
             order:-1;
         }
+        /* flex grow */
+        .items{
+            flex: 1;
+        }
+
+        .items:nth-child(2){
+            flex-grow: 3;
+        }
+
+
+
+        
+        
 
     </style>
 </head>
 <body>
     <div class="main">
-        <div>tamil</div>
-        <div>english</div>
-        <div>maths</div>
-        <div>science</div>
-        <div>social</div>
+        <div class="items">tamil</div>
+        <div class="items">english</div>
+        <div class="items">maths</div>
+        <div class="items">science</div>
+        <div class="items">social</div>
     </div>
     
 </body>
