@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cars{
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            background-color: aquamarine;
+            grid-gap: 20px;
+            text-align: center;
+            height: 500px;
+        
+            
+        
+        }
+
+        .cars>div{
+            background-color: lavender;
+            border: 2px solid black;
+            color: black;
+            display: grid;
+            align-items: center;
+            
+        }
+        .cars>div:nth-child(3){
+            grid-row-end: span 4;
+            display: grid;
+            align-items: center;
+            background-image: url("/vicky/cars.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+        }
+        .cars>div:nth-child(7){
+            grid-row-end: span 2;
+        }
+        
+        .cars>div:nth-child(){}
+
+    </style>
+</head>
+<body>
+    <div class="cars">
+        <div>BMW</div>
+        <div>FERRARI</div>
+         <div>BUGATI</div>  
+        <div>HONDA</div>
+        <div>PORSCHE</div>
+        <div>TESLA</div>
+        <div>BYD</div>
+        <div>MERCEDES</div>
+    </div>
+    
+</body>
+</html>
