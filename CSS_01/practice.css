@@ -1,0 +1,30 @@
+.container{
+    background-color: blue;
+    color: aliceblue;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(3, auto);
+    height: 100%;
+    width: 100%;
+}
+
+div > div{
+    border: 1px solid black;
+    grid-gap: 100px;
+    text-align: center;
+}
+
+.jeg{
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+    display: grid;
+    align-items: center;
+}
+
+
+
+.container > div:nth-child(2){
+background-color: yellow;
+}
+
+
