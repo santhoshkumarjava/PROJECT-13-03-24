@@ -1,0 +1,11 @@
+.div,p{
+    border-bottom-style: dashed;
+    border-left-style: dotted;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    text-align: center;
+    padding: 10px;
+}
+.table,tr{
+    border: solid 2px;
+}
