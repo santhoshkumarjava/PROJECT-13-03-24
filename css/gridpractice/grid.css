@@ -1,0 +1,93 @@
+body {
+
+    background-color: rgb(176, 181, 179);
+    margin: 2%;
+    color: beige;
+
+}
+
+.header {
+    width: 98%;
+    height: 10px;
+    background-color: rgb(17, 69, 73);
+    padding: 1rem;
+    margin-bottom: 20px;
+    color: antiquewhite;
+}
+
+.nav {
+
+    margin: 3px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 25px
+}
+
+.nav>div {
+    background-color: rgb(10, 47, 36);
+    color: beige;
+    text-align: center;
+}
+
+.a1 {
+    width: 100px;
+}
+
+.a2 {
+    width: 40px;
+    position: relative;
+    left: 60%;
+}
+
+.div1box {
+    font-family: Pacifico;
+    color: beige;
+}
+
+.div2box {
+    overflow: hidden;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 70% 27%;
+    grid-template-rows: 300px 180px 180px;
+    gap: 40px;
+}
+
+.container>div {
+    background-color: rgb(67, 96, 96);
+    padding: 1rem;
+}
+
+.div3box,
+.div5box {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+div {
+    overflow: auto;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+.div3box>div,
+.div5box>div {
+    background-color: cadetblue;
+    width: 120px;
+    height: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
