@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid System Example</title>
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+
+   pre{
+      color: aliceblue;
+   }
+    body{
+        height: 100%;
+        background-color:#1d6568;
+        
+    }
+    html{
+        height: 100%;
+    }
+    div{
+background-color:blueviolet;
+
+    }
+    .p50{
+        padding: 50px;
+    }
+     
+     .col{
+        padding: 10px;
+        border: 1px solid;
+        background-color: pink;
+        
+     }
+     .container{
+     
+     }
+     .row{
+         padding: 20px;
+     }
+     .childsel>div{
+        padding: 10px;
+        border: 1px solid;
+        background-color: pink;
+        
+     }
+     .container-fluid{
+        background-color: #11969b;
+        height: 10%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+</style>
+<body>
+<div class="container-fluid">Bootstrap</div>
+<div class="container ">
+ <pre> first we will create a row right to left 
+   and set columns in it 
+   each row can store upto 12 columns and we can manage to handle make the column 1-12 and as
+    we decreace it will take the same space calculatingly</pre> 
+    <pre>
+
+        all the rows are inside our centered container and 
+        all our col is in our rows
+
+        when we are using col it will manage to "equal width" in every sizes 
+
+        part 2
+        now we saw how we grid itself
+        separated and managed 
+
+        now how can we set like i need this column to be bigger than this 
+        and this column to be smaller than (column customization)
+
+        part 3
+
+        we do not need to give like col 8 col 4 every time we can jus target 
+        a specific div that we need to say contain this much of column space 
+
+        part 4 
+
+        we can specify break points like min width if it goes below it 
+        the div will stack it instead of our col-8 or any other 
+ 
+        break points are minwidth condition if we condition it to end it at md it wont work after md
+ 
+         <i>part - 5</i> 
+
+         we can manage to set rows left to right
+         and tell it that lets just keep only 2 cells here
+         and it will split cols even if its four and put one down 
+        
+         also we can give 4 col and 5 row so it will leave a gap and if we give 
+         auto in row it will adjust to the content in it
+          
+         <mark>and </mark> we can add media break points in it too
+
+
+<div class="container-fluid"> <iframe width="100%" src="https://getbootstrap.com/docs/5.0/layout/breakpoints/"></iframe></div>
+    </pre>
+
+     <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+     <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+     part 2
+     <div class="row childsel">
+        <div class="col-8"></div>
+        <div class="col-4"></div>
+     </div>
+part 3
+     <div class="row childsel">
+    <div class="col"></div>
+    <div class="col-6"></div>
+    <div class="col"></div>
+     </div>
+
+     part - 4
+     <div class="row row-col-xl-3 childsel mt-5 mb-5">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+
+     part - 5
+     example one for correct size 
+     <div class="row row-cols-2 childsel">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+     example two for les cols
+
+     <div class="row row-cols-xl-3  row-cols-sm-2 childsel">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+    example for auto
+     <div class="row row-cols-auto childsel">
+        <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo error nulla suscipit voluptas labore iste itaque. In id nam, porro, maxime veniam iusto esse voluptas inventore architecto velit, rem fugit!</div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+     </div>
+</div>
+
+
+<!-- Link Bootstrap JS (optional, only required if you use Bootstrap JavaScript components) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
